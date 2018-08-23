@@ -1,0 +1,65 @@
+._home{
+    cursor: pointer;
+}
+#users{
+    font-size: 2em;
+    margin-left: 20px;
+}
+#message{
+    position: absolute;
+    left: 200px;
+    z-index: 10;
+    background-color: #a6f9af;
+    font-size: 1.1em;
+    padding: 0 25px;
+}
+.tasks{
+    background-color: #ffebd4;
+    margin-top: 30px;
+}
+#comment_message{
+    background-color: #73ffa2;
+    position: relative;
+    left: 1300px;
+}
+.comment{
+    margin: 5px;
+    cursor: pointer;
+    z-index: 5;
+    width: 100%;
+}
+.comment:hover{
+    background-color: #f1f4ff;
+}
+.comment._image{
+    position: relative;
+    z-index: 120;
+}
+._image{
+    position: relative;
+    top: 9px;
+    width: 16px;
+    height: 16px;
+}
+._image:hover{
+    content: url('../images/del-open.png');
+}
+.dropdown-menu{
+    width: 92%;
+    height: auto;
+}
+.dropdown-menu:before{
+    content: '';
+    border: 15px solid transparent;
+    border-bottom: 12px solid rgb(10, 20, 51);
+    position: absolute;
+    left: 50%;
+    margin-left: -12px;
+    top: -27px;
+}
+#task-comment{
+    margin-left: 20px;
+}
+#task-comment:hover{
+    background-color: #fffbee;
+}

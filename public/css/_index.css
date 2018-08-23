@@ -1,0 +1,176 @@
+.col_nav{
+    text-align: center;
+    background-color: #f5f8fa;
+    height: 25px;
+}
+.col_id{
+    text-align: center;
+}
+.row1{
+    height: 50px;
+    background-color:lavender;
+}
+.row1:hover{
+    background-color: rgba(150, 135, 6, 0.3);
+}
+.col {
+    overflow: hidden;
+    font-family: 'sans-serif';
+}
+.btn_click{
+    float: right;
+    vertical-align: middle;
+    margin-top: -13px;
+}
+a{
+    font-family: 'sans-serif';
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+.row{
+    width: 100%;
+}
+h2{
+    text-align: center;
+}
+.navbar{
+    background-color: #6c757d;
+}
+.body{
+    height: 500px;
+    overflow: auto;
+    padding: 15px 15px 10px 40px;
+}
+.task_name{
+    width: 320px;
+}
+.comment-block{
+    padding: 15px 15px 10px 40px;
+    overflow: auto;
+}
+.form-group{
+    margin-left: 40px;
+}
+.btn-default{
+     margin-left: 20px;
+}
+.col-sm-10{
+    font-family: 'sans-serif';
+    font-size: 1.5em;
+    overflow: auto ;
+    height: 500px;
+    background-color: #b9bbbe;
+    margin: 10px;
+    padding: 15px;
+}
+*{
+    font-family: sans-serif;
+}
+.btn{
+    margin: 20px 0 0 20px;
+    top: 20px;
+}
+.nav_style{
+    font-size: 2em;
+    padding-left: 30px;
+}
+.form-control{
+    margin: 10px 0 10px 0;
+}
+label{
+    margin-bottom: 0;
+}
+.no_comment{
+    text-align: center;
+}
+.alert-save{
+    color: red;
+/*    margin-left: 20px;*/
+    display: none;
+}
+.btn-save{
+    display: none;
+}
+.for_add{
+    color: #dc3545;
+}
+#show-success{
+    position: absolute;
+    height: 35px;
+    color: #28a745;
+    font-size: 1.5em;
+    margin-left: 120px;
+}
+img{
+    float: right;
+    cursor: pointer;
+}
+.edit-image{
+    margin-right: 5px;
+}
+.edit-image:hover{
+    background-color: olivedrab;
+    border-radius: 30%;
+}
+.delete-image:hover{
+    background-color: olivedrab;
+    border-radius: 30%;
+}
+.edit-comm{
+    left: 30%;
+    top: 210px;
+    background-color: black;
+    position: absolute;
+    display: none;
+    width: 500px;
+    height: 250px;
+    border: 1px solid #1d2124;
+    opacity: 0.6;
+    z-index: 10;
+    padding:0 5px;
+}
+.edit_com_textarea{
+    height: 120px;
+    overflow: auto;
+    max-height: 170px;
+}
+.cancel-edit{
+    float: right;
+    margin-right: 20px;
+}
+#back-shadow{
+    display: none;
+    position: absolute;
+    background-color: #f5f8fa;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    z-index: 9;
+}
+#add-comment{
+    position: relative;
+    top: 12px;
+    height: 38px;
+    width: 77px;
+}
+#show-success-comment{
+    position: absolute;
+    height: 35px;
+    color: #28a745;
+    font-size: 1.5em;
+    margin-left: 120px;
+}
+._home{
+    float: left;
+}
+._logout{
+    position: absolute;
+    float: right;
+    left: 91%;
+}
+li{
+    list-style-type: none;
+}
